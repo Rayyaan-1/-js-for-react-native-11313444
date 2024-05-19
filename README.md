@@ -25,3 +25,7 @@ THE OUPUT WAS [ 36, 21, 16, 9, 100 ]
 
 
  # TASK 3
+ # Create User Profiles
+ # DESCRIPTION
+
+ Two arrays are entered into the createUserProfiles fuction that is array with the original name (names) and an array containing the modified names (modifiedNmaes).It distributes user profiles to each profile and pairs each original name with its matching modified name to create user profile objects.It returns an array of User profile 
