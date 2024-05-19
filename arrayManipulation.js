@@ -6,6 +6,7 @@ function processArray(arr) {
             return num * 3;
         }
     });
+    
 }
 const numbers = [6, 7, 4, 3, 10];
 const processedNumbers = processArray(numbers);
