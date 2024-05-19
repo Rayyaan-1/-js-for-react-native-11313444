@@ -1,3 +1,4 @@
+
 function createUserProfiles(names, modifiedNames) {
     if (names.length !== modifiedNames.length) {
       throw new Error('Array lengths must match.');
