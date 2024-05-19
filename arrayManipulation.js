@@ -11,3 +11,12 @@ function processArray(arr) {
 const numbers = [6, 7, 4, 3, 10];
 const processedNumbers = processArray(numbers);
 console.log(processedNumbers);
+
+
+//TASK 2
+
+function formatArrayStrings(strings, processedNumbers) {
+    return strings.map((str, index) => 
+        processedNumbers[index] % 2 === 0 ? str.toUpperCase() : str.toLowerCase()
+    );
+}
